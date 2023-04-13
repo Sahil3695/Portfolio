@@ -26,9 +26,9 @@
         </nav>
         <div class="row">
             <div class="cols textdata">
-                <h2>Hi, I'm <span> Chandrakant Rohit</span></h2>
-                <h3>Front-End Developer</h3>
-                <p>This is my Portfolio Website</p>
+                <h2>Hi, I'm <span class="multiText"></span></h2>
+                <h3>This is my Portfolio Website</h3>
+                <p>Dedicated and hardworking programmer and developer. Eager to apply and improve my skills for development. Special interest in purpose-driven and brain storming development.</p>
                 <div class="btn">
                     <button onclick="window.open('https://www.canva.com/design/DAFXARvapLw/2dtb9UWi2vndy3a8VNNAKg/view?utm_content=DAFXARvapLw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu','_blank')">Resume</button>
                     <button>Hire Me!</button></div>
@@ -52,6 +52,17 @@
         toggleSwitch.addEventListener('click',function(){
             document.body.classList.toggle('switch');
         })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Sahil Shukla","Coder","Web Developer","Flutter Developer","ML trainee"],
+            loop: true,
+            typedSpeed: 150,
+            backSpeed: 50,
+            backDelay: 1500,
+        })
+
     </script>
 </body>
 </html>
