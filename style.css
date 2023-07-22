@@ -119,8 +119,8 @@ ul li:hover a{
 }
 .sociallinks{
     position: absolute;
-    bottom: 5%;
-    left: 5%;
+    bottom: 15%;
+    left: 10%;
     display: flex;
 }
 
@@ -130,6 +130,7 @@ ul li:hover a{
     cursor: pointer;
     color: var(--secondary);
     transition: 0.2s ease;
+    align-items: center;
 }
 .sociallinks i:hover{
     font-size: 3vw;
@@ -138,25 +139,33 @@ ul li:hover a{
 .imagedata{
     overflow:hidden;
 }
-.imgbox{
-    position: relative;
-    width: 70%;
-    z-index: 1;
-    transition: 0.3s ease;
+.imagedata {
+  overflow: hidden;
+  position: relative; /* Add relative positioning */
 }
-.imgbox img{
-    width: 100%;
+
+.imgbox {
+  position: absolute; /* Change to absolute positioning */
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%); /* Center the .imgbox horizontally and vertically */
+  width: 75%; /* Adjust the width for better centering */
+  height: 95% ;
+  z-index: 1;
+  transition: 0.3s ease;
 }
-.imagedata:hover .imgbox{
-    transform: translateX(-10px);
+
+.imgbox img {
+  width: 100%;
 }
+
 
 .animblob{
     position: absolute;
-    top:50%;
-    left: 68%;
-    height: 20vw;
-    width: 20vw;
+    top:45%;
+    left: 60%;
+    height: 25vw;
+    width: 25vw;
     transform: translate(-50%,-50%);
     background: #ff2400;
     animation: animate_blob 8s linear infinite;
