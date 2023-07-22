@@ -271,25 +271,25 @@ ul li:hover a{
     .toggleSwitch .fa {
       font-size: 4vw;
     }
+    .textdata {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      .btn button {
+        margin-top: 10px;
+      }
   }
   
-  /* New styles for mobile screen */
-  .textdata {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .btn button {
-    margin-top: 10px;
-  }
+ 
   
   
   
