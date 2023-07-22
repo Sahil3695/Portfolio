@@ -76,6 +76,9 @@ ul li:hover a{
     justify-content: center;
     padding-left: 4%;
 }
+.textdata{
+    margin-bottom: 10%;
+}
 .textdata h2{
     font-size: 3vw;
     font-weight: 600;
@@ -100,7 +103,7 @@ ul li:hover a{
 }
 .textdata .btn{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .btn button{
     border:none;
@@ -118,9 +121,10 @@ ul li:hover a{
     padding: 10px 40px;
 }
 .sociallinks{
+    top: 70%;
     position: absolute;
-    bottom: 15%;
-    left: 10%;
+    bottom: 5%;
+    left: 5%;
     display: flex;
 }
 
@@ -130,7 +134,6 @@ ul li:hover a{
     cursor: pointer;
     color: var(--secondary);
     transition: 0.2s ease;
-    align-items: center;
 }
 .sociallinks i:hover{
     font-size: 3vw;
@@ -139,33 +142,25 @@ ul li:hover a{
 .imagedata{
     overflow:hidden;
 }
-.imagedata {
-  overflow: hidden;
-  position: relative; /* Add relative positioning */
+.imgbox{
+    position: relative;
+    width: 90%;
+    height: 97%;
+    z-index: 1;
+    transition: 0.3s ease;
 }
-
-.imgbox {
-  position: absolute; /* Change to absolute positioning */
-  top: 50%;
-  left: 60%;
-  transform: translate(-50%, -50%); /* Center the .imgbox horizontally and vertically */
-  width: 75%; /* Adjust the width for better centering */
-  height: 95% ;
-  z-index: 1;
-  transition: 0.3s ease;
-}
-
-.imgbox img {
-  width: 100%;
+.imgbox img{
+    width: 100%;
+    
 }
 
 
 .animblob{
     position: absolute;
-    top:45%;
-    left: 60%;
-    height: 25vw;
-    width: 25vw;
+    top:50%;
+    left: 75%;
+    height: 30vw;
+    width: 30vw;
     transform: translate(-50%,-50%);
     background: #ff2400;
     animation: animate_blob 8s linear infinite;
@@ -205,6 +200,7 @@ ul li:hover a{
 .switch .fa-moon{
     display: none;
 }
+
 @media only screen and (min-width: 768px) {
     .container {
       max-width: 100%;
@@ -213,9 +209,7 @@ ul li:hover a{
     
   }
 
-/* Existing CSS styles */
 
-/* Add this media query to make the website responsive */
 @media only screen and (max-width: 768px) {
     .row {
       flex-direction: column;
@@ -271,9 +265,9 @@ ul li:hover a{
   
     .animblob {
       top: 30%;
-      left: 50%;
-      width: 40vw;
-      height: 40vw;
+      left: 53%;
+      width: 60vw;
+      height: 60vw;
       transform: translate(-50%, -50%);
     }
   
@@ -297,15 +291,5 @@ ul li:hover a{
         margin-top: 10px;
       }
   }
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
   
   
