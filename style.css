@@ -203,4 +203,100 @@ ul li:hover a{
     }
     
   }
+
+/* Existing CSS styles */
+
+/* Add this media query to make the website responsive */
+@media only screen and (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .cols {
+      max-width: 100%;
+    }
+  
+    .textdata h2 {
+      font-size: 5vw;
+    }
+  
+    .textdata h3 {
+      font-size: 3vw;
+    }
+  
+    .textdata p {
+      font-size: 1.5vw;
+    }
+  
+    .btn button {
+      font-size: 3vw;
+    }
+  
+    .sociallinks {
+      position: static;
+      margin-top: 20px;
+    }
+  
+    .sociallinks i {
+      font-size: 5vw;
+      margin: 0px 10px;
+    }
+  
+    .imagedata {
+        order: -1; /* Move .imagedata above .textdata on mobile */
+        margin-top: 20px;
+        text-align: center; /* Center the image inside the blob */
+      }
+    
+      .imgbox {
+        position: relative;
+        width: 80%; /* Adjust the width for better centering */
+        margin: 0 auto; /* Center the .imgbox horizontally */
+      }
+    
+      .imgbox img {
+        width: 100%;
+      }
+    
+  
+    .animblob {
+      top: 30%;
+      left: 50%;
+      width: 40vw;
+      height: 40vw;
+      transform: translate(-50%, -50%);
+    }
+  
+    .toggleSwitch .fa {
+      font-size: 4vw;
+    }
+  }
+  
+  /* New styles for mobile screen */
+  .textdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .btn button {
+    margin-top: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
